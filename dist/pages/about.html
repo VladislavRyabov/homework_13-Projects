@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Шлях до css це відносний шлях не залежить ввід папки-->
+    <link rel="stylesheet" href="../bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container header__container">
+                <img class="logo" src="../img/Logo.svg" alt="logo">
+                <nav class="header__nav">
+                    <label class="header__nav-label" for="gam">
+                        <div class="header__nav-icon"></div>
+                    </label>
+                    <input id="gam" class="header__nav-input" type="checkbox">
+                    <ul class="header__nav-row">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="/">Home</a>
+                        </li>
+                        <li class="header__nav-item header__nav-item--active">
+                            <a class="header__nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./works.html">Works</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="about-page">
+            <section class="about">
+                <div class="container">
+                    <div class="about__content">
+                        <div class="about__wrapper">
+                            <h1 class="about__title">
+                                About
+                            </h1>
+                            <p class="about__text">
+                                I’m Manifest
+                                Full-time UI/UX designer
+                                Head of Design at VeronaLabs.com
+                            </p>
+                            <img src="../img/Img-01.png" alt="img" class="about__img">
+                        </div>
+                        <div class="about__wrap">
+                            <p class="about__word">
+                                I was born in January 1990. After getting my Degree in computer science in 2002, I
+                                persuaded my higher study in Human Computer Interaction Design. I got my first job as
+                                Graphic Designer in the year 2008. After getting experience in graphic for a year, I
+                                moved to UI-UX Designing.
+                            </p>
+                            <p class="about__word word">
+                                In 2010, I decided to work as a Freelance Web, UI-UX & Mobile Interface Designer. I find
+                                myself still in the learning phase and have strong desire to achieve as many skills as I
+                                can.
+                            </p>
+                            <div class="about__button">
+                                <a class="about__tn" href="#">
+                                    Resume 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <h2>Footer</h2>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <!--Обовязково додавати потрібно для JS -->
+    <script> var exports = {}; </script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
