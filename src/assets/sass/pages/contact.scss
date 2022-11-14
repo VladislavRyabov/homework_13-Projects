@@ -1,0 +1,93 @@
+.contact {
+    padding: 130px 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 73px 0 64px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+    &__wrapper {
+        width: 50%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    &__wrap {
+        width: 50%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        max-width: 540px;
+        margin-bottom: 128px;
+        color: #565656;
+
+        @media screen and (max-width: 768px) {
+            margin: 42px 0 64px;
+        }
+    }
+
+    &__word {
+        margin: 24px 0 21px;
+        color: #565656;
+
+        @media screen and (max-width: 768px) {
+            margin: 40px 0 21px;
+        }
+    }
+
+    &__phone {
+        display: flex;
+    }
+
+    &__number {
+        margin-left: 9px;
+        color: #565656;
+    }
+
+    &__icon {
+        margin-bottom: 23px;
+    }
+
+    &__heading {
+        margin: 46px 0 25px;
+
+        @media screen and (max-width: 768px) {
+            margin: 51px 0 25px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        gap: 24px;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 63px;
+        }
+    }
+
+    .fa,
+    .fas,
+    .fab {
+        color: #565656;
+    }
+
+    .fa:hover,
+    .fas:hover,
+    .fab:hover {
+        color: #000;
+    }
+}

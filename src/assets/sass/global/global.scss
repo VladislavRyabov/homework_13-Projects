@@ -29,44 +29,5 @@ body {
     }
 }
 
-.btn {
-    width: 160px;
-    height: 45px;
-    background: #565656;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid #565656;
-    cursor: pointer;
-}
 
-.btn a {
-    color: #fff;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 166%;
-    letter-spacing: 0.1em;
-}
 
-.btn::after {
-    content: '\279E';
-    color: #fff;
-    margin-left: 10px;
-}
-
-.btn:hover {
-    border: 1px solid #000;
-    color: #000;
-    background: #fff;
-}
-
-.btn:hover a {
-    color: #000;
-}
-
-.btn:hover:after {
-    color: #000;
-}
