@@ -26,6 +26,35 @@ $sub-fonts: 'Lato', sans-serif;
         letter-spacing: 0.05em;
 }
 
+.h3 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 166%;
+    color: #000000;
+}
+
+.h4 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.h5 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.05em;
+    color: #565656;
+}
+
 .h6 {
     font-family: $sub-fonts;
     font-weight: 400;
@@ -44,24 +73,7 @@ $sub-fonts: 'Lato', sans-serif;
     color: $color-black;
 }
 
-.h4 {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 32px;
-    letter-spacing: 0.05em;
-    color: #000000;
-}
 
 
-.h3 {
-    font-family: 'Red Hat Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 166%;
-    color: #000000;
-}
 
 
