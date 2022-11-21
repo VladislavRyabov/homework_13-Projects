@@ -19,11 +19,11 @@ $sub-fonts: 'Lato', sans-serif;
 
 .h1 {
     font-family: 'Red Hat Display';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 64px;
-        letter-spacing: 0.05em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
 }
 
 .h3 {
@@ -71,6 +71,17 @@ $sub-fonts: 'Lato', sans-serif;
     line-height: 20px;
     letter-spacing: 0.1em;
     color: $color-black;
+}
+
+
+.case-study {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5em;
+    color: #000000;
 }
 
 

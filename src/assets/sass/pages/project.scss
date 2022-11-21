@@ -1,0 +1,122 @@
+.project {
+    padding: 130px 0 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 73px 0 48px;
+    }
+
+    &__title {
+        margin: 48px 0 64px;
+
+        @media screen and (max-width: 768px) {
+            margin: 39px 0 52px;
+            font-size: 33px;
+            line-height: 50px;
+        }
+    }
+
+    &__img {
+        margin-bottom: 130px;
+        @media screen and (max-width: 768px) {
+            margin-bottom: 64px;
+        }
+    }
+    &__overview {
+        display: flex;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+    &__wrapp {
+        max-width: 544px;
+    }
+
+    &__heading {
+        margin-bottom: 40px;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__text {
+        color: #565656;
+    }
+
+    &__word {
+        margin-top: 40px;
+        color: #565656;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 64px;
+        }
+    }
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media screen and (max-width: 768px) {
+            align-items: flex-start;
+        }
+
+    }
+
+    &__item {
+
+    }
+
+    &__description {
+        color: #565656;
+        margin-bottom: 46px;
+    }
+}
+
+.project-overview {
+    padding: 84px 0 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 25px 0 0;
+    }
+
+    &__card {
+        padding-bottom: 130px;
+
+        @media screen and (max-width: 768px) {
+            padding-bottom: 64px;
+        }
+    }
+    &__heading {
+        margin-bottom: 40px;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 32px;
+        }
+    }
+
+    &__text {
+        margin: 50px 0;
+        color: #565656;
+
+        @media screen and (max-width: 768px) {
+            margin: 45px 0;
+        }
+    }
+
+    &__word {
+        color: #565656;
+    }
+
+    &__word-top {
+        margin-top: 50px;
+
+        @media screen and (max-width: 768px) {
+            margin-top: 45px;
+        }
+    }
+
+}
