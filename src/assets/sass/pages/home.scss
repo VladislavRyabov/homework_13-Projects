@@ -4,7 +4,26 @@
 
 }
 
-.home-page {
+.home-offer {
+    padding: 130px 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 73px 0 40px;
+    }
+
+    &__title {
+        max-width: 709px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 33px;
+            line-height: 50px;
+        }
+    }
+
+    &__btn {
+        margin-top: 30px;
+    }
+
     &__modal-container {
         background: $color-moda-bg;
         position: fixed;
@@ -35,19 +54,7 @@
         z-index: 100;
         position: relative;
         box-shadow: 0px 2px 22px 0px rgba(0, 0, 0, 0.75);
-        //transition: all 1s;
         opacity: 0;
-
-        // &::after {
-        //     content: '';
-        //     width: 100vw;
-        //     height: 100vh;
-        //     background: black;
-        //     position: absolute;
-        //     top: 50%;
-        //     left: 50%;
-        //     transform: translate(-50%, -50%);
-        // }
     }
 
     .is-visible {
@@ -55,7 +62,7 @@
         transform: translate(-50%, -50%);
         visibility: visible;
 
-        .home-page__modal {
+        .home-offer__modal {
             transform: translateX(0);
             opacity: 1;
         }
@@ -69,6 +76,198 @@
 
         &:hover {
             color: $color-grey-700;
+        }
+    }
+}
+
+
+.slider {
+    &__box {
+        display: flex;
+        gap: 32px;
+        overflow: scroll;
+    }
+
+    &__home {
+        width: 544px;
+        min-width: 544px;
+
+        @media screen and (max-width: 768px) {
+            width: 257px;
+            min-width: 257px;
+        }
+    }
+
+    &__box {
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    &__title {
+        margin-top: 16px;
+    }
+
+}
+
+.home-content {
+    padding: 130px 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 64px 0 48px;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+    &__wrapper {
+        max-width: 430px;
+
+        &:after {
+            content: "\2192";
+            color: #7B7B7B;
+        }
+    }
+
+    &__wrap {
+        max-width: 480px;
+    }
+
+    &__title {
+        &:last-child {
+            margin-bottom: 48px;
+
+            @media screen and (max-width: 768px) {
+                margin-top: 48px;
+            }
+        }
+    }
+
+    &__text {
+        color: #565656;
+
+        &:first-child {
+            margin-bottom: 40px;
+
+            @media screen and (max-width: 768px) {
+                margin: 48px 0 40px;
+            }
+        }
+    }
+}
+
+.home-posts {
+    padding-bottom: 128px;
+
+    @media screen and (max-width: 768px) {
+        padding-bottom: 64px;
+    }
+
+    &__categories {
+        display: flex;
+        gap: 39px;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            gap: 29px;
+        }
+    }
+
+    &__box {
+        width: 100%;
+        margin-bottom: 48px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    &__wrap {
+        display: flex;
+        gap: 40px;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+    &__card {
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    &__description-wrap {
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            margin: 16px 0 24px;
+            gap: 8px;
+        }
+    }
+
+    &__description {
+        color: #7B7B7B;
+        margin: 24px 0;
+
+        @media screen and (max-width: 768px) {
+            color: #7B7B7B;
+            margin: 0;
+        }
+    }
+
+    &__description-head-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            margin: 16px 0 24px;
+            gap: 8px;
+            align-items: start;
+        }
+    }
+
+    &__description-head {
+        margin: 24px 0;
+
+        @media screen and (max-width: 768px) {
+            margin: 0;
+        }
+    }
+
+    &__description-head--right {
+        margin: 24px 0;
+        color: #7B7B7B;
+
+        &:after {
+            content: "\2192";
+            color: #7B7B7B;
+        }
+
+        @media screen and (max-width: 768px) {
+            margin: 0;
+        }
+    }
+
+    &__title {
+        margin-bottom: 24px;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 16px;
         }
     }
 }

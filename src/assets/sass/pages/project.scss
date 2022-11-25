@@ -17,10 +17,12 @@
 
     &__img {
         margin-bottom: 130px;
+
         @media screen and (max-width: 768px) {
             margin-bottom: 64px;
         }
     }
+
     &__overview {
         display: flex;
 
@@ -66,9 +68,7 @@
 
     }
 
-    &__item {
-
-    }
+    &__item {}
 
     &__description {
         color: #565656;
@@ -90,6 +90,7 @@
             padding-bottom: 64px;
         }
     }
+
     &__heading {
         margin-bottom: 40px;
 

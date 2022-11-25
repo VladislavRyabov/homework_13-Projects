@@ -2,11 +2,11 @@
 
 try {
   document.querySelector('#btn1').onclick = function () {
-    document.querySelector('.home-page__modal-container').classList.add('is-visible');
+    document.querySelector('.home-offer__modal-container').classList.add('is-visible');
   };
 
-  document.querySelector('.home-page__modal-close').onclick = function () {
-    document.querySelector('.home-page__modal-container').classList.remove('is-visible');
+  document.querySelector('.home-offer__modal-close').onclick = function () {
+    document.querySelector('.home-offer__modal-container').classList.remove('is-visible');
   };
 } catch (_unused) {
   console.log("dont find");
