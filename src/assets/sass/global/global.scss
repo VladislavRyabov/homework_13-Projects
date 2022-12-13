@@ -1,9 +1,9 @@
 body {
-    font-family: $sub-fonts;
+    font-family: $main-fonts;
 }
 
 .container {
-    max-width: 1179px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -17,6 +17,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .hover-link-animation {
@@ -28,6 +29,3 @@ body {
         transform: scale(1.1);
     }
 }
-
-
-
