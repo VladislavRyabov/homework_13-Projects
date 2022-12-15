@@ -1,0 +1,78 @@
+.about {
+    &__content {
+        padding: 136px 0;
+        display: flex;
+    }
+
+    &__wrapper {
+        width: 50%;
+    }
+
+    &__wrap {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__text {
+        max-width: 431px;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        color: #565656;
+        margin-top: 39px;
+        margin-bottom: 19px;
+    }
+
+    &__word {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        color: #565656;
+    }
+
+    &__button {
+        margin-top: 67px;
+    }
+
+    &__img {
+        max-width: 225px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .about__content {
+            flex-direction: column;
+        }
+
+        .about__wrapper {
+            width: 100%;
+        }
+
+        .about__wrap {
+            width: 100%;
+        }
+
+        .about__content {
+            padding: 73px 0 64px;
+        }
+        .about__text {
+            margin-top: 48px;
+            margin-bottom: 24px;
+        }
+        .about__button {
+            margin-top: 48px;
+        }
+        .about__word {
+            margin-top: 48px;
+        }
+
+
+    }
+}

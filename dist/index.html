@@ -16,10 +16,7 @@
 
         <header class="header">
             <div class="container header__container">
-                <div class="header__logo">
-                    <p class="header__logo-ttu">SENCE</p>
-                    <p class="header__logo-arch">ARCHITECTS</p>
-                </div>
+                <img class="logo" src="./img/Logo.svg" alt="logo">
                 <nav class="header__nav">
                     <label class="header__nav-label" for="gam">
                         <div class="header__nav-icon"></div>
@@ -30,285 +27,195 @@
                             <a class="header__nav-link" href="/">Home</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="./pages/about.html">Projects</a>
+                            <a class="header__nav-link" href="./pages/about.html">About</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="./pages/works.html">About</a>
+                            <a class="header__nav-link" href="./pages/works.html">Works</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="./pages/blog.html">Services</a>
+                            <a class="header__nav-link" href="./pages/blog.html">Blog</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="./pages/contact.html">Contacts</a>
+                            <a class="header__nav-link" href="./pages/contact.html">Contact</a>
                         </li>
                     </ul>
                 </nav>
-                <div class="header__language">
-                    <p class="header__language-title">
-                        Get a quote
-                    </p>
-                    <div class="header__language-wrap">
-                        <a class="header__language-text header__language-text-left">
-                            EN
-                        </a>
-                        <a class="header__language-text header__language-text-right">
-                            UK
-                        </a>
-                    </div>
-                </div>
             </div>
         </header>
 
         <main class="home-page">
             <section class="home-offer">
-                <div class="container home-offer__container ">
+                <div class="container">
                     <h1 class="home-offer__title h1">
-                        STUDIO OF RATIONAL ARCHITECTURE AND INTERIOR DESIGN
+                        Manifest is a newborn theme.
+                        Clean, simple and fast.
                     </h1>
-                </div>
-                <div class="home-offer__img">
-                    <img class="home-offer__img-img" src="./img/art.png" alt="offer-img">
-                </div>
-                <div class="container">
-                    <h4 class="home-offer__sab-title h4 animation">
-                        WE DESIGN WITH A MATHEMATICALLY RATIONAL, SCIENTIFIC APPROACH TO ARCHITECTURE
-                    </h4>
-                    <div class="home-offer__button btn animation">
-                        <a class="home-offer__btn" href="#">
-                            About Us
-                        </a>
-                    </div>
-                </div>
-            </section>
+                    <button id="btn1" class="home-offer__btn btn">
+                        Send
+                    </button>
 
-            <section class="information">
-                <div class="container">
-                    <div class="information__wrapper">
-                        <div class="information__content">
-                            <h2 class="information__title h2 animation">
-                                A PLACE WHERE IDEAS MEET SKILLS
+                    <div class="home-offer__modal-container">
+                        <div class="home-offer__modal">
+                            <div class="home-offer__modal-close">X</div>
+                            <h2 class="title home-offer__modal-title">
+                                Contact Us
                             </h2>
-                        </div>
-                        <div class="information__wrapp">
-                            <p class="information__text animation">
-                                ​​Architecture studio SENCE ARCHITECTS is a combination of style and individuality. Each
-                                project is a detailed study of psychology, ergonomics, rhythm of life and values of the
-                                client.
+                            <p class="h6 home-offer__modal-text">
+                                If you need our help with your user account, have questions about how to use the
+                                platform or are
                             </p>
-                            <div class="information__button btn animation">
-                                <a class="information__btn" href="#">
-                                    All works
-                                </a>
-                            </div>
+                            <form class="form" action="" netlify>
+
+                                <div class="form__fields">
+                                    <span class="form__tilte">Name*</span>
+                                    <input class="form__input" type="text" placeholder="Walter Moss" required>
+                                </div>
+
+                                <div class="form__fields">
+                                    <span class="form__tilte">Email*</span>
+                                    <input class="form__input" type="email" placeholder="Walter Moss" required>
+                                </div>
+
+                                <div class="form__fields">
+                                    <select class="form__input" name="Reason for contact" id="">
+                                        <option value="1">Reason for contact</option>
+                                        <option value="2">Ukraine</option>
+                                        <option value="3">USA</option>
+                                        <option value="4">Italy</option>
+                                    </select>
+                                </div>
+
+                                <div class="form__fields">
+                                    <span class="form__tilte">Message*</span>
+                                    <input class="form__input" type="text" placeholder="Walter Moss" required>
+                                </div>
+
+                                <button type="submit" class="btn">
+                                    Send
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="ideas">
-                <div class="container ideas__container">
-                    <div class="ideas__card">
-                        <div class="ideas__card-wrapper">
-                            <div class="ideas__card-wrapper-box">
-                                <img class="ideas__card-wrapper-img" src="./img/ideas-img-1.jpg" alt="ideas-img">
-                            </div>
-                        </div>
-                        <div class="ideas__card-wrapp">
-                            <div class="ideas__card-wrapp-box">
-                                <img class="ideas__card-wrapp-img" src="./img/ideas-img-2.jpg" alt="ideas-img">
-                            </div>
-                            <div class="ideas__info">
-                                <p class="ideas__word animation h5">
-                                    Residential architecture
-                                </p>
-                                <h3 class="ideas__heading animation h3">
-                                    LAKE
-                                </h3>
-                                <p class="ideas__word animation h5">
-                                    Stylish one-story house
-                                </p>
-                                <div class="ideas__button btn animation">
-                                    <a class="ideas__btn" href="#">
-                                        View project
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+            <section class="slider">
+                <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}' class="slider__box">
+                    <div class="slider__home">
+                        <img src="../img/slider-1.png" alt="img" class="">
+                        <h3 class="h6 slider__title">Mixkit Inspo</h3>
                     </div>
-                    <div class="ideas__card">
-                        <div class="ideas__card-wrapper">
-                            <div class="ideas__card-wrapper-box">
-                                <img class="ideas__card-wrapper-img" src="./img/card_2-1.png" alt="ideas-img">
-                            </div>
-                        </div>
-                        <div class="ideas__card-wrapp">
-                            <div class="ideas__card-wrapp-box">
-                                <img class="ideas__card-wrapp-img" src="./img/card_2-2.png" alt="ideas-img">
-                            </div>
-                            <div class="ideas__info">
-                                <p class="ideas__word animation h5">
-                                    Residential architecture
-                                </p>
-                                <h3 class="ideas__heading animation h3">
-                                    LAKE
-                                </h3>
-                                <p class="ideas__word animation h5">
-                                    Stylish one-story house
-                                </p>
-                                <div class="ideas__button btn animation">
-                                    <a class="ideas__btn" href="#">
-                                        View project
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="slider__home">
+                        <img src="../img/slider-2.png" alt="img" class="">
+                        <h3 class="h6 slider__title">Dreamy</h3>
                     </div>
-                    <div class="ideas__card">
-                        <div class="ideas__card-wrapper">
-                            <div class="ideas__card-wrapper-box">
-                                <img class="ideas__card-wrapper-img" src="./img/card_3-2.png" alt="ideas-img">
-                            </div>
-                        </div>
-                        <div class="ideas__card-wrapp">
-                            <div class="ideas__card-wrapp-box">
-                                <img class="ideas__card-wrapp-img" src="./img/card_3-1.png" alt="ideas-img">
-                            </div>
-                            <div class="ideas__info">
-                                <p class="ideas__word animation h5">
-                                    Residential architecture
-                                </p>
-                                <h3 class="ideas__heading animation h3">
-                                    LAKE
-                                </h3>
-                                <p class="ideas__word animation h5">
-                                    Stylish one-story house
-                                </p>
-                                <div class="ideas__button btn animation">
-                                    <a class="ideas__btn" href="#">
-                                        View project
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="slider__home">
+                        <img src="../img/slider-1.png" alt="img" class="">
+                        <h3 class="h6 slider__title">Abalone</h3>
+                    </div>
+                    <div class="slider__home">
+                        <img src="../img/slider-2.png" alt="img" class="">
+                        <h3 class="h6 slider__title">Mixkit Inspo</h3>
+                    </div>
+                    <div class="slider__home">
+                        <img src="../img/slider-1.png" alt="img" class="">
+                        <h3 class="h6 slider__title">Abalone</h3>
+                    </div>
+                    <div class="slider__home">
+                        <img src="../img/slider-2.png" alt="img" class="">
+                        <h3 class="h6 slider__title">Dreamy</h3>
                     </div>
                 </div>
             </section>
 
-            <section class="information">
+            <section class="home-content">
                 <div class="container">
-                    <div class="information__wrapper">
-                        <div class="information__content">
-                            <h2 class="information__title h2 animation">
-                                ARCHITECTURE STUDIO SERVICES
-                            </h2>
+                    <div class="home-content__box">
+                        <div class="home-content__wrapper">
+                            <h3 class="home-content__title h3 animation">
+                                Full-time UI/UX designer
+                            </h3>
+                            <h3 class="home-content__title h3 animation">
+                                Head of Design at VeronaLabs.com
+                            </h3>
                         </div>
-                        <div class="information__wrapp">
-                            <p class="information__text animation">
-                                ​Our philosophy is designed with a mathematically reasonable, scientific approach to
-                                architecture.
-                                We offer a complex approach to the study of a certain case which includes detailed
-                                research on psychology,
-                                ergonomics, the rhythm of life, and the values of the client.
+                        <div class="home-content__wrap">
+                            <p class="home-content__text h4 animation">
+                                We work with clients around the world from our headquarters in Charleston, South
+                                Carolina.
                             </p>
-                            <div class="information__button btn animation">
-                                <a class="information__btn" href="#">
-                                    Get a quote
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="services">
-                <div class="container">
-                    <div class="services__card">
-                        <div class="services__card-wrapp">
-                            <div class="services__card-wrapp-box">
-                                <img class="services__card-wrapp-img" src="./img/services-1.png" alt="ideas-img">
-                            </div>
-                            <div class="services__info">
-                                <h3 class="services__heading animation h3">
-                                    ARCHITECTURAL DESIGN OF VILLAS AND HOUSES
-                                </h3>
-                                <p class="services__word animation h5">
-                                    The high level of effectiveness of the architectural design and its longevity are
-                                    the values
-                                    that have become the driving force for our team
-                                </p>
-                                <div class="services__button btn animation">
-                                    <a class="services__btn" href="#">
-                                        Learn more
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services__card">
-                        <div class="services__card-wrapp">
-                            <div class="services__card-wrapp-box">
-                                <img class="services__card-wrapp-img" src="./img/services-2.png" alt="ideas-img">
-                            </div>
-                            <div class="services__info">
-                                <h3 class="services__heading animation h3">
-                                    INTERIOR DESIGN OF VILLAS AND HOUSES
-                                </h3>
-                                <p class="services__word animation h5">
-                                    Following the integrity of the space principle, we consider a house interior as a
-                                    wholesome being whose
-                                    design is to be chosen attentively as to the wishes of a customer
-                                </p>
-                                <div class="services__button btn animation">
-                                    <a class="services__btn" href="#">
-                                        Learn more
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="services__card">
-                        <div class="services__card-wrapp">
-                            <div class="services__card-wrapp-box">
-                                <img class="services__card-wrapp-img" src="./img/services-3.png" alt="ideas-img">
-                            </div>
-                            <div class="services__info">
-                                <h3 class="services__heading animation h3">
-                                    APARTMENT INTERIOR DESIGN
-                                </h3>
-                                <p class="services__word animation h5">
-                                    Following the integrity of the space principle, we consider a house interior as a
-                                    wholesome being whose
-                                    design is to be chosen attentively as to the wishes of a customer
-                                </p>
-                                <div class="services__button btn animation">
-                                    <a class="services__btn" href="#">
-                                        Learn more
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="information">
-                <div class="container">
-                    <div class="information__wrapper">
-                        <div class="information__content">
-                            <h2 class="information__title h2 animation">
-                                ​WHY CHOOSE SENCE ARCHITECTS
-                            </h2>
-                        </div>
-                        <div class="information__wrapp">
-                            <p class="information__text animation">
-                                ​Clients choose SENCE ARCHITECTS because our approach to each project is individual and
-                                with a scientific
-                                meticulousness to aesthetics.
+                            <p class="home-content__text h4 animation">
+                                We focus on naming, branding, brand narratives, website design and development, and
+                                brand experiences.
                             </p>
-                            <div class="information__button btn animation">
-                                <a class="information__btn" href="#">
-                                    Get a quote
-                                </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home-posts">
+                <div class="container">
+                    <div class="home-posts__wrapper">
+                        <div class="home-posts__description-head-wrap">
+                            <p class="home-posts__description-head h3 animation">
+                                Latest Posts
+                            </p>
+                            <p class="home-posts__description-head--right h6 animation">
+                                View All
+                            </p>
+                        </div>
+                        <div class="home-posts__wrap">
+                            <div class="home-posts__card">
+                                <img class="home-posts__img animation" src="../img/posts-1.png" alt="img">
+                                <div class="home-posts__description-wrap">
+                                    <p class="home-posts__description h9 animation">
+                                        Interface Design
+                                    </p>
+                                    <p class="home-posts__description h9 animation">
+                                        8 June, 2020
+                                    </p>
+                                </div>
+                                <h3 class="home-posts__title h3 animation">
+                                    UX traffic light colours
+                                </h3>
+                                <p class="home-posts__text h5 animation">
+                                    UI has to make a huge visual difference between warning, an alert and a success.
+                                </p>
+                            </div>
+                            <div class="home-posts__card">
+                                <img class="home-posts__img animation" src="../img/posts-2.png" alt="img">
+                                <div class="home-posts__description-wrap">
+                                    <p class="home-posts__description h9 animation">
+                                        Interface Design
+                                    </p>
+                                    <p class="home-posts__description h9 animation">
+                                        8 June, 2020
+                                    </p>
+                                </div>
+                                <h3 class="home-posts__title h3 animation">
+                                    Using UX Design to Build a Sustainable Future
+                                </h3>
+                                <p class="home-posts__text h5 animation">
+                                    Transformation has to be driven by everybody, not just by climate groups.
+                                </p>
+                            </div>
+                            <div class="home-posts__card">
+                                <img class="home-posts__img animation" src="../img/posts-3.png" alt="img">
+                                <div class="home-posts__description-wrap">
+                                    <p class="home-posts__description h9 animation">
+                                        Interface Design
+                                    </p>
+                                    <p class="home-posts__description h9 animation">
+                                        8 June, 2020
+                                    </p>
+                                </div>
+                                <h3 class="home-posts__title h3 animation">
+                                    Creativity vs. UX
+                                </h3>
+                                <p class="home-posts__text h5 animation">
+                                    Is it possible to create a delightful user experience without following best UX
+                                    practices?
+                                </p>
                             </div>
                         </div>
                     </div>

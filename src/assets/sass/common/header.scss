@@ -1,52 +1,18 @@
 // & == .header
 .header {
-    padding-top: 30px;
+    padding-top: 96px;
 
     &__container {
         display: flex;
+        justify-content: space-between;
         align-items: center;
-    }
-
-    &__logo {
-        max-width: 220px;
-    }
-
-    &__logo-ttu {
-        font-family: $main-fonts;
-        font-size: 35px;
-        letter-spacing: 24px;
-
-        @media screen and (max-width: 768px) {
-            font-size: 26px;
-            letter-spacing: 12px;
-        }
-    }
-
-    &__logo-arch {
-        font-family: $main-fonts;
-        font-size: 11px;
-        letter-spacing: 16px;
-
-        @media screen and (max-width: 768px) {
-            font-size: 7px;
-            letter-spacing: 11px;
-        }
-    }
-
-    &__nav {
-        margin-left: 45px;
-
-        @media screen and (max-width: 768px) {
-            margin-left: auto;
-        }
     }
 
     &__nav-row {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 29px;
-        background: $color-white;
+        gap: 50px;
 
         @media (max-width: $tablet) {
             display: none;
@@ -61,30 +27,31 @@
             display: block;
             width: 32px;
             height: 32px;
-            background: #f6f6f6;
+            background: red;
             position: relative;
             z-index: 100;
         }
     }
 
     &__nav-link {
-        font-family: $main-fonts;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        letter-spacing: 0.0em;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
         color: $color-black;
-        font-weight: lighter;
         cursor: pointer;
     }
 
     &__nav-item {
-        &:hover a {
-            color: $color-item-hover;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+            border-bottom: 1px solid $color-black;
         }
 
-        &--active a {
-            color: $color-item-hover;
+        &--active {
+            border-bottom: 1px solid $color-black;
         }
     }
 
@@ -96,6 +63,7 @@
             flex-direction: column;
             justify-content: center;
             position: fixed;
+            background-color: $color-grey;
             top: 0;
             left: 0;
             width: 100%;
@@ -103,50 +71,4 @@
             z-index: 99;
         }
     }
-
-    &__language {
-        display: flex;
-        margin-left: auto;
-        gap: 42px;
-
-        @media screen and (max-width: 768px) {
-            display: none;
-        }
-    }
-
-    &__language-wrap {
-        display: flex;
-
-        &:first-child {
-            border-right: black;
-        }
-    }
-
-    &__language-title {
-        font-weight: lighter;
-    }
-
-    &__language-text {
-        cursor: pointer;
-        font-weight: lighter;
-
-
-        &:hover {
-            color: $color-item-hover;
-        }
-
-        &--active {
-            color: $color-item-hover;
-        }
-    }
-
-    &__language-text-left {
-        border-right: 1px solid $color-item-hover;
-        padding-right: 15px;
-    }
-
-    &__language-text-right {
-        padding-left: 15px;
-    }
-
 }

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifest</title>
+    <!--Шлях до css це відносний шлях не залежить ввід папки-->
+    <link rel="stylesheet" href="@@webRoot/bundle.min.css">
+    <!-- Font Awesome Fonts CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container header__container">
+                <img class="logo" src="../img/Logo.svg" alt="logo">
+                <nav class="header__nav">
+                    <label class="header__nav-label" for="gam">
+                        <div class="header__nav-icon"></div>
+                    </label>
+                    <input id="gam" class="header__nav-input" type="checkbox">
+                    <ul class="header__nav-row">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="/">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./works.html">Works</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="header__nav-item header__nav-item--active">
+                            <a class="header__nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="contact-page">
+            <section class="contact">
+                <div class="container">
+                    <div class="contact__content">
+                        <div class="contact__wrapper">
+                            <h1 class="h1">
+                                Contact Us
+                            </h1>
+                        </div>
+                        <div class="contact__wrap">
+                            <p class="contact__text h4">
+                                If you need our help with your user account, have questions about how to use the
+                                platform or are experiencing technical difficulties, please do not hesitate to contact
+                                us.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <div class="contact__wrapper">
+                            <h3 class="h3">
+                                Contact information
+                            </h3>
+                            <p class="contact__word h6">
+                                486 Rahi street, Berlin .98 Germany
+                            </p>
+                            <div class="contact__phone">
+                                <div class="contact__icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact__info d-flex">
+                                    <a href="tel:+74955672815" class="contact__number">
+                                        + 7 (495) 567-28-15
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact__phone">
+                                <div class="contact__icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact__info d-flex">
+                                    <a href="tel:+74955672815" class="contact__number">
+                                        JClegal@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="contact__heading h3">
+                                Follow Us
+                            </p>
+                            <ul class="contact__item d-flex">
+                                <li class="contact__ink">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="contact__link">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-messenger"></i>
+                                    </a>
+                                </li>
+                                <li class="contact__ink">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="contact__link">
+                                    <a href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact__wrap">
+                            <form class="form" action="" netlify>
+                                <div class="form__fields">
+                                    <span class="form__tilte">Name*</span>
+                                    <input class="form__input" type="text" placeholder="Walter Moss" required>
+                                </div>
+                                <div class="form__fields">
+                                    <span class="form__tilte">Email*</span>
+                                    <input class="form__input" type="email" placeholder="Walter Moss" required>
+                                </div>
+                                <div class="form__fields">
+                                    <select class="form__input" name="Reason for contact" id="">
+                                        <option value="1">Reason for contact</option>
+                                        <option value="2">Ukraine</option>
+                                        <option value="3">USA</option>
+                                        <option value="4">Italy</option>
+                                    </select>
+                                </div>
+                                <div class="form__fields">
+                                    <span class="form__tilte">Message*</span>
+                                    <input class="form__input" type="text" placeholder="Walter Moss" required>
+                                </div>
+                                <button type="submit" class="btn">
+                                    Send
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__content">
+                    <h2 class="title footer__title">
+                        Need a project?
+                    </h2>
+                    <a class="h6 footer__contact" href="tel:2395550108">
+                        (239) 555-0108
+                    </a>
+                    <a class="h6 footer__contact" href="mailto:tanya.hill@example.com">
+                        tanya.hill@example.com
+                    </a>
+                </div>
+
+                <ul class="footer__social-row">
+                    <li class="footer__social-item">
+                        <a class="h6 hover-link-animation footer__link" href="#">
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="h6 hover-link-animation footer__link" href="#">
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="h6 hover-link-animation footer__link" href="#">
+                            Dribbble
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="h6 hover-link-animation footer__link" href="#">
+                            Linkedin
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="h9 footer__description">
+                    © Copyright Sasha Theme. 2022
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <!--Обовязково додавати потрібно для JS -->
+    <script> var exports = {}; </script>
+    <script src="@@webRoot/js/index.js"></script>
+</body>
+
+</html>

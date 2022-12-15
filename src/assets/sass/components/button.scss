@@ -1,34 +1,50 @@
 .btn {
-    width: 180px;
+    width: 160px;
     height: 45px;
+    background: #565656;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-bottom: 2px solid $color-black;
+    border: 1px solid #565656;
     cursor: pointer;
 
-    @media screen and (max-width: 768px) {
-        width: 140px;
-        height: 35px;
-    }
+    color: #fff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
 
     & a {
-        color: $color-black;
-        font-family: $main-fonts;
-        font-weight: normal;
+        color: #fff;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
         font-size: 16px;
-        line-height: 19px;
-        letter-spacing: 1.6px;
-
-        @media screen and (max-width: 768px) {
-            font-size: 14px;
-        }
+        line-height: 166%;
+        letter-spacing: 0.1em;
+    }
+    
+    &:after {
+        content: '\279E';
+        color: #fff;
+        margin-left: 10px;
+    }
+    
+    &:hover {
+        border: 1px solid #000;
+        color: #565656;
+        background: #fff;
     }
     
     &:hover a {
-        font-size: 18px;
-        transition: all 1s;
+        color: #565656;
+    }
+    
+    &:hover:after {
+        color: #565656;
     }
 }
 
